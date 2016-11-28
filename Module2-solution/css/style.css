@@ -68,7 +68,8 @@ p:hover {
   height: 90%;
   margin-right: auto;
   margin-left: auto; 
-  margin-top: 50px;
+  margin-top: 70px;
+  text-align: center;
 }
 
 /* Simple Responsive Framework. */
