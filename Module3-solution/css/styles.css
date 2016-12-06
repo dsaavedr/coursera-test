@@ -5,7 +5,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navbar-collapse {
+.navbar-collapse .visible-xs {
   background-color: rgba(47,234,50,.8);
 }
 .navbar-default .navbar-nav>.active>a,
