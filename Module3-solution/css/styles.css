@@ -21,6 +21,17 @@ body {
   height: 1000px;
 }
 
+pre {
+  background-color: inherit;
+  box-shadow: 0 20px 60px;
+  border: 0;
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 }
