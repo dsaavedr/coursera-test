@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  /*color: #fff;*/
+  /*background-color: #61122f;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-collapse {
+  background-color: rgba(47,234,50,.8);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(47,234,50,1);
+  box-shadow: 0 0 5px;
+  font-weight: 600;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+}
