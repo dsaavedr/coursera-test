@@ -8,6 +8,7 @@ body {
 
 .navbar-collapse .visible-xs {
   background-color: rgba(47,234,50,.8);
+  text-align: center;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
