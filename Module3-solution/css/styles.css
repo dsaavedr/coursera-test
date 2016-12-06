@@ -19,7 +19,7 @@ body {
 }
 
 .main-content .container-fluid {
-  background-color: rgba(47,234,50,.4);
+  /*background-color: rgba(47,234,50,.4);*/
   height: 1000px;
 }
 
