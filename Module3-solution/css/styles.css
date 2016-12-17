@@ -1,3 +1,12 @@
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 body {
   font-size: 16px;
   /*color: #fff;*/
@@ -21,6 +30,20 @@ body {
 .main-content .container-fluid {
   /*background-color: rgba(47,234,50,.4);*/
   height: 1000px;
+}
+
+.menu-part {
+  height: 700px;
+  /*background-color: rgba(47,234,50,.6);*/
+  border: 1px solid black;
+  position: relative;
+  /*padding: 20px;*/
+}
+
+.btp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 pre {
