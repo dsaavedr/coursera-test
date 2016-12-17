@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  font-size: 16px;
+  /*color: #fff;*/
+  /*background-color: #61122f;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  /*padding-top: 70px;*/
+}
+
+.navbar-collapse .visible-xs {
+  background-color: rgba(47,234,50,.8);
+  text-align: center;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(47,234,50,1);
+  box-shadow: 0 0 5px;
+  font-weight: 600;
+}
+
+.main-content .container-fluid {
+  /*background-color: rgba(47,234,50,.4);*/
+  height: 1000px;
+}
+
+.menu-part {
+  height: 700px;
+  /*background-color: rgba(47,234,50,.6);*/
+  border: 1px solid black;
+  position: relative;
+  /*padding: 20px;*/
+}
+
+.btp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+pre {
+  background-color: inherit;
+  box-shadow: 0 20px 60px;
+  border: 0;
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+}
